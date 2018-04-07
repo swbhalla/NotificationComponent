@@ -1,0 +1,8 @@
+<div *ngIf="notificationService.visible" class="notifications-container">
+    <div *ngFor="let notification of notificationService.notifications;let i= index">
+        <div class="notification">
+            <span class="close-notification" (click)="notificationService.closeNotification(i)" >x</span>
+            <span>{{notification.message}}</span>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,20 @@
+.close-notification{
+    font-size:15px;
+    right: 20px;
+    position: absolute;
+    cursor: pointer;
+}
+.notifications-container{
+    width: 30%;
+    position:absolute;
+    bottom:0px;
+    right: 0px;
+    padding:10px;
+}
+.notification{
+    padding:20px;
+    background-color:#333;
+    color:#fff;
+    margin-bottom:10px;
+    border-radius: 4px;
+}
